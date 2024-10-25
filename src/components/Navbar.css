@@ -1,0 +1,29 @@
+.navContainer {
+    background-color: #000000; 
+    padding: 10px 20px;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  
+  .navContainer li {
+    color: white; 
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .navContainer li:hover {
+    color: #d84c4c; 
+  }
+  

@@ -1,0 +1,16 @@
+.footerContainer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    max-height: 40px;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  
+  .footerContainer p {
+    margin: 5px 0;
+  }
+  
