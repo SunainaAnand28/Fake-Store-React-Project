@@ -13,6 +13,17 @@ h1{
     justify-content: center;
     padding: 20px;
   }
+  .search-bar {
+    margin-bottom: 20px;
+    margin-left: 500px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    border: 1px solid rgb(237, 56, 101);
+    border-radius: 5px;
+  }
+  
   
   .box {
     background-color: #f9f9f9;
@@ -27,9 +38,15 @@ h1{
     font-size: 1.3rem;
   }
   
-  .content {
+  .Price {
     padding: 20px;
-    max-height: 350px;
+    max-height: 50px;
+    color: rgb(36, 36, 43); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .Category {
+    padding: 10px;
+    max-height: 50px;
     color: rgb(116, 116, 228); 
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -39,4 +56,26 @@ h1{
     width: 300px;
     height: 300px;
   }
-  
+  .pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #f0f0f0;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}

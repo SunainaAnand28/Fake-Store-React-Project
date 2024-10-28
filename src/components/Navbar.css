@@ -26,4 +26,9 @@
   .navContainer li:hover {
     color: #d84c4c; 
   }
-  
+  p{
+    color: white;
+  }
+  span{
+  color: white;  
+  }
