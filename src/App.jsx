@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
-import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext';
 import Footer from './components/Footer'
 
