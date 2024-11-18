@@ -3,14 +3,14 @@
     color: white;
     text-align: center;
     position: fixed;
-    max-height: 40px;
+    max-height: 25px;
     bottom: 0;
     width: 100%;
-    font-size: 12px;
+    font-size: 8px;
     z-index: 1000;
   }
   
   .footerContainer p {
-    margin: 5px 0;
+    margin: 3px 0;
   }
   
